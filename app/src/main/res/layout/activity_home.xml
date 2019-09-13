@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:text="Email:"
             android:textColor="#070707"
-            android:textSize="30sp" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/text_view_email"
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:text="Password:"
             android:textColor="#070707"
-            android:textSize="30sp" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/text_view_password"

@@ -21,7 +21,6 @@
         android:layout_width="match_parent"
         android:layout_height="84dp"
         android:hint="Email">
-
         <requestFocus />
     </EditText>
 
@@ -31,7 +30,6 @@
         android:layout_height="84dp"
         android:hint="Password"
         android:inputType="textPassword">
-
         <requestFocus />
     </EditText>
 
