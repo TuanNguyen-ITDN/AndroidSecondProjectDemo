@@ -16,6 +16,15 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         TextView myTextview = (TextView)findViewById(R.id.myTextview);
+        TextView text_view_email = (TextView) findViewById(R.id.text_view_email);
+        TextView text_view_password = (TextView) findViewById(R.id.text_view_password);
+
+        final Intent infor = this.getIntent();
+        String email = infor.getStringExtra("email");
+        String password = infor.getStringExtra("password");
+
+        text_view_email.setText( email);
+        text_view_password.setText(password);
 
         myTextview.setOnClickListener(new View.OnClickListener() {
 
